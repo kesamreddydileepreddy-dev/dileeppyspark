@@ -48,3 +48,9 @@ spark.sql(f""" create table employee_external using delta location'{external_pat
 # COMMAND ----------
 
 spark.sql("DESCRIBE DETAIL employee_external").display()
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC select * from emp
+# MAGIC
