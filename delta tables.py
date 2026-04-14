@@ -30,7 +30,6 @@ spark.sql("DESCRIBE DETAIL employee_managed").display()
 # COMMAND ----------
 
 df33 = spark.sql("select * from employee_managed")
-df33.display()
 
 # COMMAND ----------
 
